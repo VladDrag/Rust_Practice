@@ -6,7 +6,7 @@
 /*   By: vdragomi <vdragomi@students.42wolfsburg.de +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/28 21:20:32 by vdragomi          #+#    #+#             */
-/*   Updated: 2022/01/29 10:03:32 by vdragomi         ###   ########.fr       */
+/*   Updated: 2022/01/30 18:44:43 by vdragomi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,5 +24,4 @@ use std::fs;
 fn main() {
     let input = input::input_get();
     fs::write("foo.txt", &input).expect("Input could not be writte inside the new file!");
-    println!("{}", input.as_str());
 }
